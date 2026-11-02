@@ -1,23 +1,23 @@
 {
   "schemaVersion": "1.0",
-  "contentVersion": "2026.10.22.23",
-  "generatedAt": "2026-11-02T03:18:38.319890Z",
+  "contentVersion": "2026.10.22.24",
+  "generatedAt": "2026-11-02T13:18:50.468892Z",
   "timezone": "Asia/Shanghai",
   "snapshot": {
-    "asOf": "2026-11-02T01:17:21.054410+00:00",
+    "asOf": "2026-11-02T10:43:36.443582+00:00",
     "operatingDate": "2026-11-02",
     "week": "2026-W45",
     "day": {
-      "native": 6,
+      "native": 12,
       "due": 0,
-      "future": 6,
+      "future": 0,
       "held": 0,
       "target": 12
     },
     "weekCounts": {
-      "native": 6,
+      "native": 12,
       "due": 0,
-      "future": 78,
+      "future": 72,
       "held": 0,
       "coverage": 84,
       "target": 84,
@@ -26,49 +26,49 @@
     },
     "perPlatform": {
       "x": {
-        "native": 1,
+        "native": 2,
         "due": 0,
-        "future": 13,
+        "future": 12,
         "held": 0,
         "target": 14,
         "gap": 0
       },
       "instagram": {
-        "native": 1,
+        "native": 2,
         "due": 0,
-        "future": 13,
+        "future": 12,
         "held": 0,
         "target": 14,
         "gap": 0
       },
       "facebook": {
-        "native": 1,
+        "native": 2,
         "due": 0,
-        "future": 13,
+        "future": 12,
         "held": 0,
         "target": 14,
         "gap": 0
       },
       "youtube": {
-        "native": 1,
+        "native": 2,
         "due": 0,
-        "future": 13,
+        "future": 12,
         "held": 0,
         "target": 14,
         "gap": 0
       },
       "pinterest": {
-        "native": 1,
+        "native": 2,
         "due": 0,
-        "future": 13,
+        "future": 12,
         "held": 0,
         "target": 14,
         "gap": 0
       },
       "tiktok": {
-        "native": 1,
+        "native": 2,
         "due": 0,
-        "future": 13,
+        "future": 12,
         "held": 0,
         "target": 14,
         "gap": 0
@@ -88,7 +88,7 @@
       "direct": 78,
       "oldFailed": 3
     },
-    "lastRegularVerifiedAt": "2026-11-02T01:17:21.054410+00:00",
+    "lastRegularVerifiedAt": "2026-11-02T10:39:17.810Z",
     "lastHistoricalVerifiedAt": "2026-10-23T23:38:26Z"
   },
   "accounts": [
@@ -189,40 +189,40 @@
       "sourceLabel": "统一发布库 · Manus制作线",
       "platforms": {
         "x": {
-          "state": "scheduled",
+          "state": "verified",
           "scheduledAt": "2026-11-02T18:00:00+08:00",
-          "verifiedAt": null,
-          "permalink": null
+          "verifiedAt": "2026-11-02T10:31:03Z",
+          "permalink": "https://x.com/TOSWIM_Founder/status/2117195019148812446"
         },
         "instagram": {
-          "state": "scheduled",
+          "state": "verified",
           "scheduledAt": "2026-11-02T18:00:00+08:00",
-          "verifiedAt": null,
-          "permalink": null
+          "verifiedAt": "2026-11-02T10:31:03Z",
+          "permalink": "https://www.instagram.com/reels/DfPDJeNiSfd/"
         },
         "facebook": {
-          "state": "scheduled",
+          "state": "verified",
           "scheduledAt": "2026-11-02T18:00:00+08:00",
-          "verifiedAt": null,
-          "permalink": null
+          "verifiedAt": "2026-11-02T10:31:03Z",
+          "permalink": "https://www.facebook.com/reel/1435715398129036"
         },
         "youtube": {
-          "state": "scheduled",
+          "state": "verified",
           "scheduledAt": "2026-11-02T18:00:00+08:00",
-          "verifiedAt": null,
-          "permalink": null
+          "verifiedAt": "2026-11-02T10:34:47.647Z",
+          "permalink": "https://www.youtube.com/shorts/QiJLv5PN178"
         },
         "pinterest": {
-          "state": "scheduled",
+          "state": "verified",
           "scheduledAt": "2026-11-02T18:00:00+08:00",
-          "verifiedAt": null,
-          "permalink": null
+          "verifiedAt": "2026-11-02T10:39:17.810Z",
+          "permalink": "https://es.pinterest.com/pin/1087830485030056412/"
         },
         "tiktok": {
-          "state": "scheduled",
+          "state": "verified",
           "scheduledAt": "2026-11-02T18:00:00+08:00",
-          "verifiedAt": null,
-          "permalink": null
+          "verifiedAt": "2026-11-02T10:31:03Z",
+          "permalink": "https://www.tiktok.com/@toswim_founder/video/7703260588637490463"
         }
       }
     },
@@ -905,6 +905,12 @@
       "date": "2026-11-02",
       "title": "2026-W46已选14个主题，已预约12/84",
       "detail": "已接受预约逐项独立读回；另72条为本地计划。6条实际提前量不足168小时，如实保留。本周原帖、点名240与正式指标证据时间保持。"
+    },
+    {
+      "version": "2026.10.22.24",
+      "date": "2026-11-02",
+      "title": "2026-W46已选14个主题，已预约18/84",
+      "detail": "本周原帖已核验12条、到点待核0条、有效未来72条，覆盖84/84。下周已接受预约逐项独立读回；另66条为本地计划。6条实际提前量不足168小时，如实保留。点名240与正式指标按各自原证据时间单列。"
     }
   ],
   "latestNamed": {
@@ -947,20 +953,20 @@
   },
   "nextWeek": {
     "week": "2026-W46",
-    "asOf": "2026-11-02T07:28:25.200116+00:00",
+    "asOf": "2026-11-02T13:14:05.285510+00:00",
     "topics": 14,
     "target": 84,
-    "accepted": 12,
-    "unsubmitted": 72,
-    "strictLeadMet": 6,
+    "accepted": 18,
+    "unsubmitted": 66,
+    "strictLeadMet": 12,
     "strictLeadShortfall": 6,
     "perPlatform": {
-      "x": 2,
-      "instagram": 2,
-      "facebook": 2,
-      "youtube": 2,
-      "pinterest": 2,
-      "tiktok": 2
+      "x": 3,
+      "instagram": 3,
+      "facebook": 3,
+      "youtube": 3,
+      "pinterest": 3,
+      "tiktok": 3
     },
     "rows": [
       {
@@ -979,7 +985,7 @@
         "workId": "178",
         "title": "ONE TOE | The Instant Between Two Swimmers | TOSWIM",
         "scheduledAt": "2026-11-10T08:00:00+08:00",
-        "accepted": 0
+        "accepted": 6
       },
       {
         "workId": "MN03",

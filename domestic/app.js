@@ -138,7 +138,7 @@ function renderCalendar(){
    <p class="row-source">片库与制作线：<a href="#sources">${esc(row.sourceLabel)}</a></p>
    <div class="network-states">${NETS.filter(n=>filter==='all'||n===filter).map(n=>{
     const p=row.platforms[n], s=p?.state??'uncreated', label=`${LABELS[n]} · ${p?.note||names[s]}`;
-    let deep=false;try{const u=new URL(p?.permalink||'');deep=u.pathname.length>1&&u.hostname!=='space.bilibili.com';}catch{}
+    let deep=false;try{const u=new URL(p?.permalink||'');deep=n==='bili'&&u.hostname==='www.bilibili.com'&&/^\/video\/BV[0-9A-Za-z]+\/?$/.test(u.pathname);}catch{}
     return p?.permalink&&deep?`<a class="state state-${s}" href="${esc(p.permalink)}" target="_blank" rel="noopener noreferrer" title="打开该作品原帖">${esc(label)} ↗</a>`:`<span class="state state-${s}" title="该平台暂未登记作品原帖直链，以总台账基数核验为准">${esc(label)}</span>`;
    }).join('')}</div>
   </div>

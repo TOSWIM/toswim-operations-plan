@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "contentVersion": "2026.11.02.1",
-  "generatedAt": "2026-11-02T12:37:36.419282Z",
+  "contentVersion": "2026.11.02.2",
+  "generatedAt": "2026-11-02T13:30:31.296415Z",
   "timezone": "Asia/Shanghai",
   "snapshot": {
     "asOf": "2026-11-01T01:50:00+08:00",
@@ -88,8 +88,8 @@
       "key": "dt",
       "label": "淘宝·点淘",
       "handle": "TOSWIM / 游泳先生运动旗舰店 (pub_scene=dt)",
-      "url": "https://iqianniu.taobao.com",
-      "route": "千牛短视频点淘通道 (_dt_pub_one.mjs) · 3:4 竖封 · 内容ID与基数 +1 核验",
+      "url": "https://creator.guanghe.taobao.com/page/workspace/dt",
+      "route": "光合创作后台点淘通道（需登录）· 3:4 竖封 · 内容ID与基数 +1 核验",
       "baselineCount": 2724,
       "unit": "条",
       "latestDelta": "2723 → 2724 (ID: 2463306457929670)",
@@ -251,7 +251,7 @@
         "dt": {
           "state": "verified",
           "note": "2723→2724 (ID:2463306457929670)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -296,7 +296,7 @@
         "dt": {
           "state": "verified",
           "note": "2722→2723 (ID:4233467424347664)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -341,7 +341,7 @@
         "dt": {
           "state": "verified",
           "note": "2721→2722 (ID:3419838877547652)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -386,7 +386,7 @@
         "dt": {
           "state": "verified",
           "note": "2720→2721 (ID:2078197255913674)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -431,7 +431,7 @@
         "dt": {
           "state": "verified",
           "note": "2718→2719 (ID:4292926205030759)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -476,7 +476,7 @@
         "dt": {
           "state": "verified",
           "note": "2718→2719 (ID:184736284415930)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -521,7 +521,7 @@
         "dt": {
           "state": "verified",
           "note": "2717→2718 (ID:4116228374846948)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -566,7 +566,7 @@
         "dt": {
           "state": "verified",
           "note": "2715→2716 (ID:4130639698088791)",
-          "permalink": "https://iqianniu.taobao.com"
+          "permalink": "https://creator.guanghe.taobao.com/page/workspace/dt"
         },
         "jd": {
           "state": "verified",
@@ -599,7 +599,7 @@
       "role": "与海外六平台站点同域名家族 · 支持 CG 原生工具链直接更新",
       "status": "已上线",
       "url": "https://toswim-domestic-operations.mr-toswim.chatgpt.site",
-      "note": "公开访问；由 CG 原生 Sites 工具发布（项目 appgprj_6ae643278db081918a16ae4c27d2ae37），与妙搭、GitHub 同一份 dist 源码"
+      "note": "公开访问；由 CG 原生 Sites 工具发布，使用与妙搭、GitHub 共用的源码"
     }
   ],
   "updates": [
@@ -614,6 +614,12 @@
       "date": "2026-11-02",
       "title": "超链接与作品信息勘误",
       "detail": "按 00_发布库 与总台账勘误：撤下首版误写的 295–298 作品名与两个无效B站稿件号，近期批次改为真实已发作品（299/242/270–275，B站稿件号逐个核对归属）；心理/经济/大脑合集改标为选题方向；CG 站点状态改为已上线。"
+    },
+    {
+      "version": "2026.11.02.2",
+      "date": "2026-11-02",
+      "title": "平台入口与原帖链接复核",
+      "detail": "8条B站稿件的公开页面与官方接口已核对作者及主题；点淘入口改为需登录的光合创作后台。平台后台不作为作品原帖链接，来源说明不再以编号区间概括全部已发。首页代表作链接与242封面对应，运营基数仍按原快照日期读取。"
     }
   ]
 }
