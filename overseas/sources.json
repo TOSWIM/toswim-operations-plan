@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0",
+  "updatedOn": "2026-11-02",
+  "scope": "国内七平台与海外六平台共用片库；本站展示海外主理人六平台规划",
+  "items": [
+    {
+      "id": "local-publish-library",
+      "role": "library",
+      "name": "TOSWIM核心共用主库 · 00_发布库",
+      "type": "唯一权威片库 · 统一准入",
+      "status": "registered",
+      "priority": "优先国内已发、海外未发",
+      "entryLabel": "唯一权威片库：00_发布库",
+      "url": null,
+      "provides": "汇集本地泳镜侠、Manus MN、品牌LOGO与产品测款W四条供片线的正式成品、版本说明及同作品封面。",
+      "intake": "以统一发布库中的正式成品与准入记录为准，按作品与版本去重。国内与海外分线发布，结果汇入唯一十三平台总台账，平台计数分别保留。",
+      "scopeNote": "当前优先选择国内已发布、目标海外平台尚未发布且未有效预约的正式原片。国内与海外片单基本对齐后协调统一新片节奏，特殊情况另记。原画面、剪辑、时长、配乐、中文或双语字幕、配音与片尾保留。"
+    },
+    {
+      "id": "local-goggle-hero",
+      "role": "production-line",
+      "name": "本地泳镜侠制作线",
+      "type": "本地制作 · 泳镜侠系列",
+      "status": "registered",
+      "priority": "按统一准入承接",
+      "entryLabel": "统一发布库内核对",
+      "url": null,
+      "provides": "本地制作的泳镜侠创意影片及已归档成品。",
+      "intake": "按统一发布库中的作品编号、正式原片与同作封面选片，不从重复网站或交付副本另算新作品。",
+      "scopeNote": "已准入原片可直通海外。10月26日晚本批25部的同作9:16与选帧说明已补齐并核对；其他作品仍逐片检查，缺尺寸时仅补同作封面。"
+    },
+    {
+      "id": "manus-production",
+      "role": "production-line",
+      "name": "Manus制作线",
+      "type": "MN系列 · 独立制作出处",
+      "status": "registered",
+      "priority": "按统一准入承接",
+      "entryLabel": "统一发布库内核对",
+      "url": null,
+      "provides": "Manus制作并交付的系列影片，正式版本统一归入共用发布库。",
+      "intake": "核对每部作品的实际入库与准入状态，再使用正式原片和同作封面。制作完成、交付链接与正式准入分开记录。",
+      "scopeNote": "首批采用已确认国内发布的MN01、MN05、MN07；其它作品按实际国内发布证据、版本及海外逐平台去重结果选用。"
+    },
+    {
+      "id": "cg-logo-production",
+      "role": "production-line",
+      "name": "品牌LOGO制作线",
+      "type": "CG与本地创作 · LOGO系列",
+      "status": "registered",
+      "priority": "按统一准入承接",
+      "entryLabel": "统一发布库内核对",
+      "url": null,
+      "provides": "以TOSWIM品牌元素创作的LOGO系列影片及对应交付版本。",
+      "intake": "已按统一规则入库的LOGO成片依本次授权原片直通海外；保留具体创作出处和历史审片记录，不另设一次海外视频批准。",
+      "scopeNote": "10月26日晚本批LOGO作品的同作9:16及选帧说明已补齐；目标平台预览仍需逐项核对。未完成交付或尚未准入的暂存素材仍先完成统一入库。"
+    },
+    {
+      "id": "product-test-production",
+      "role": "production-line",
+      "name": "产品测款制作线",
+      "type": "W系列 · 产品测款内容",
+      "status": "registered",
+      "priority": "按统一准入承接",
+      "entryLabel": "统一发布库内核对",
+      "url": null,
+      "provides": "围绕产品测试与使用表达制作的W系列影片。",
+      "intake": "核对具体作品、版本、实际准入与内容证据，再从统一发布库承接。作品目录或标题本身不证明已经放行。",
+      "scopeNote": "已准入作品使用原片、原配乐与原中文表达。实测、示意或创意呈现按真实证据说明，不扩大为未经验证的产品结论。"
+    },
+    {
+      "id": "brand-video-archive",
+      "role": "discovery",
+      "name": "TOSWIM品牌视频站",
+      "type": "品牌作品展示 · 发现与预览",
+      "status": "registered",
+      "priority": "发现与浏览入口",
+      "entryLabel": "打开品牌视频站",
+      "url": "https://toswim.mr-toswim.chatgpt.site/",
+      "provides": "浏览品牌动画、设计创意与已有作品，追溯创作交付线索。",
+      "intake": "通过作品页和创作交付线索找到对应作品，再回到统一发布库核对正式版本与准入。网站预览、创作交付和归档副本属于同一作品时只计一次。",
+      "scopeNote": "品牌站用于发现、浏览与追溯，是同一片库的入口；不作为独立优先来源或另一套准入。页面出现或链接可下载不自动代表已准入，正式使用版本以统一发布库为准。"
+    },
+    {
+      "id": "authorized-feishu-materials",
+      "role": "discovery",
+      "name": "飞书已授权素材群",
+      "type": "候选素材 · 协作与交付线索",
+      "status": "registered",
+      "priority": "补充发现入口",
+      "entryLabel": "内部已授权入口，不在本站公开",
+      "url": null,
+      "provides": "候选视频、作品说明、修订或撤回消息，以及审核与交付上下文。",
+      "intake": "只读追溯已授权消息与资源，保留作品与原消息对应关系；正式版本与准入统一落到共用发布库。",
+      "scopeNote": "取得消息、候选或下载链接不等于准发。群内素材不另建一套片库准入；已撤回、未入库或未放行作品不进入排期。"
+    }
+  ],
+  "expansion": {
+    "title": "制作来源可以增加，权威片库与总台账保持唯一。",
+    "description": "后续新增制作线、团队交付或合作来源，先登记出处与交付关系，再纳入同一套片库准入。发现入口可以扩充，同一作品跨入口出现仍按作品与版本去重。",
+    "candidateExamples": "Pinterest可使用同作品专用封面，或记录该片对应片内帧的毫秒位置；其他海外平台按实际封面要求核对。封面缺尺寸只补封面，不重制已准入原片。"
+  }
+}

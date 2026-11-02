@@ -1,0 +1,619 @@
+{
+  "schemaVersion": "1.0",
+  "contentVersion": "2026.11.02.1",
+  "generatedAt": "2026-11-02T12:37:36.419282Z",
+  "timezone": "Asia/Shanghai",
+  "snapshot": {
+    "asOf": "2026-11-01T01:50:00+08:00",
+    "operatingDate": "2026-11-02",
+    "batchLabel": "近期重点批次 (242–299)",
+    "totalBaselineWorks": 4305,
+    "platformCount": 7,
+    "collectionCount": 7,
+    "latestWorkId": "299",
+    "latestWorkTitle": "雪蝶云影",
+    "batchCounts": {
+      "verified": 56,
+      "scheduled": 0,
+      "due": 0,
+      "held": 0,
+      "uncreated": 0,
+      "coverage": 56,
+      "target": 56
+    },
+    "highlightNote": "微信视频号作品 237 播放量突破 20.9 万+；B站账号升至 Lv2 已正式解锁合集与空间代表作权限；抖音与B站已全面落实双比例封面分别上传。"
+  },
+  "accounts": [
+    {
+      "key": "xhs",
+      "label": "小红书",
+      "handle": "TOSWIM主理人泳镜侠 (TOSWIM_FOUNDER)",
+      "url": "https://www.xiaohongshu.com",
+      "route": "创作者中心网页端 CDP 直发 · 3:4 竖封 (1080×1440) · 作品数 +1 核验",
+      "baselineCount": 482,
+      "unit": "篇",
+      "latestDelta": "481 → 482 (299 雪蝶云影)",
+      "coverRule": "3:4 竖版封面 (1080×1440)",
+      "collectionSupport": "个人主页专辑（按7大主题合集归档）"
+    },
+    {
+      "key": "dy",
+      "label": "抖音",
+      "handle": "TOSWIM主理人泳镜侠",
+      "url": "https://creator.douyin.com",
+      "route": "抖音创作者中心 CDP 直发 · 3:4 竖封 + 4:3 横封双封面全传 · 作品数 +1 核验",
+      "baselineCount": 394,
+      "unit": "条",
+      "latestDelta": "393 → 394 (299 雪蝶云影)",
+      "coverRule": "3:4 竖封 (1080×1440) + 4:3 横封 (1440×1080)",
+      "collectionSupport": "创作者合集（支持按系列拖拽归档与连播）"
+    },
+    {
+      "key": "ks",
+      "label": "快手",
+      "handle": "TOSWIM主理人泳镜侠",
+      "url": "https://cp.kuaishou.com",
+      "route": "快手创作者服务平台 CDP 直发 · 3:4 竖封 (960×1280) · 作品数 +1 核验",
+      "baselineCount": 182,
+      "unit": "条",
+      "latestDelta": "181 → 182 (299 雪蝶云影)",
+      "coverRule": "3:4 竖版封面 (960×1280 裁切适配)",
+      "collectionSupport": "快手剧集 / 作品合集归档"
+    },
+    {
+      "key": "bili",
+      "label": "B站",
+      "handle": "TOSWIM / 主理人泳镜侠 (UID: 394526836)",
+      "url": "https://space.bilibili.com/394526836",
+      "route": "B站创作中心 CDP 直发 · 4:3 推荐封面 + 16:9 个人空间双封面 · BV号实锤核验",
+      "baselineCount": 84,
+      "unit": "稿",
+      "latestDelta": "83 → 84 (BV1YbxJ6LE7U)",
+      "coverRule": "4:3 首页推荐封面 + 16:9 个人空间封面",
+      "collectionSupport": "Lv2 已解锁官方「视频合集」与空间代表作置顶"
+    },
+    {
+      "key": "sph",
+      "label": "视频号",
+      "handle": "TOSWIM主理人泳镜侠",
+      "url": "https://channels.weixin.qq.com",
+      "route": "微信视频号助手 CDP 直发 · 3:4 竖封 + 完整话题标签 · 作品数 +1 核验",
+      "baselineCount": 421,
+      "unit": "条",
+      "latestDelta": "420 → 421 (299 雪蝶云影；237 播放 20.9万+)",
+      "coverRule": "3:4 竖版封面 (1080×1440)",
+      "collectionSupport": "视频号主页合集标签页（支持长尾搜索与私域转发）"
+    },
+    {
+      "key": "dt",
+      "label": "淘宝·点淘",
+      "handle": "TOSWIM / 游泳先生运动旗舰店 (pub_scene=dt)",
+      "url": "https://iqianniu.taobao.com",
+      "route": "千牛短视频点淘通道 (_dt_pub_one.mjs) · 3:4 竖封 · 内容ID与基数 +1 核验",
+      "baselineCount": 2724,
+      "unit": "条",
+      "latestDelta": "2723 → 2724 (ID: 2463306457929670)",
+      "coverRule": "3:4 竖版封面 (1080×1440)",
+      "collectionSupport": "店铺逛逛分类与主推商品挂车聚合"
+    },
+    {
+      "key": "jd",
+      "label": "京东·逛视频",
+      "handle": "TOSWIM拓胜京东自营旗舰店 (创作者ID: 81357 · 粉丝 30.7万)",
+      "url": "https://dr.jd.com",
+      "route": "京东内容创作平台 (_jd_pub_one.mjs) · 0/10 挂件先过公域审核后挂车 · 视频ID核验",
+      "baselineCount": 18,
+      "unit": "批",
+      "latestDelta": "最新公域过审 ID: 1374953724 (视频ID: 4918049643)",
+      "coverRule": "3:4 竖版封面 (1080×1440)",
+      "collectionSupport": "自营旗舰店内容频道与核心单品SKU挂载"
+    }
+  ],
+  "collections": [
+    {
+      "id": "COL-01",
+      "name": "品牌与六字母创意",
+      "scope": "以 T·O·S·W·I·M 六个官方定制斜切字母与高定超模演绎为核心创作的视觉艺术大片",
+      "examples": "299 雪蝶云影·水墨雪蝶、275 雪蝶云影、274 霜白墨浪、273 薄荷黑天鹅、272 甜酷紫罗兰、271 冰雪黑精灵、270 黑珍珠千金、263 黑模选秀",
+      "platforms": "B站合集 / 抖音合集 / 视频号合集 / 小红书专辑",
+      "priority": "P0 门面置顶"
+    },
+    {
+      "id": "COL-02",
+      "name": "智能泳衣与黑科技",
+      "scope": "聚焦遇水变色、智能温控、流体减阻、抗氯织物等先锋泳衣工程概念与实测",
+      "examples": "242 泳衣遇水变深 (ONE AIR)、239 泳衣简史、240 泳镜简史、241 泳帽简史",
+      "platforms": "全平台核心种草合集（关联高定泳衣挂车）",
+      "priority": "P0 爆款承接"
+    },
+    {
+      "id": "COL-03",
+      "name": "泳镜与硬核装备工程",
+      "scope": "主理人泳镜侠拆解防雾涂层、密封硅胶人体工学、曲面光学视野与泳帽结构",
+      "examples": "防雾分子层解析、大框泳镜眼眶压迫对比、竞速泳镜水阻实验",
+      "platforms": "B站 / 小红书 / 抖音 / 点淘 / 京东逛视频",
+      "priority": "P0 转化主力"
+    },
+    {
+      "id": "COL-04",
+      "name": "心理学与行为博弈",
+      "scope": "用40秒高密度矢量动画将经典心理学效应与泳池日常、消费决策巧妙结合",
+      "examples": "选题方向（作品号待归档时按发布库补录）：沉没成本、破窗效应、锚定效应、达克效应、心流体验",
+      "platforms": "B站知识区 / 视频号 / 抖音 / 小红书",
+      "priority": "P1 涨粉引擎"
+    },
+    {
+      "id": "COL-05",
+      "name": "经济学与商业洞察",
+      "scope": "主理人视角剖析长期主义、复利模型、边际效用与品牌定价背后的经济学逻辑",
+      "examples": "选题方向（作品号待归档时按发布库补录）：复利曲线、边际递减、帕累托最优、劣币驱逐良币",
+      "platforms": "视频号 / B站 / 抖音 / 小红书",
+      "priority": "P1 认知破圈"
+    },
+    {
+      "id": "COL-06",
+      "name": "大脑认知与神经科学",
+      "scope": "探索多巴胺、内啡肽、前额叶控制、肌肉记忆及水中运动对大脑的重塑机制",
+      "examples": "选题方向（作品号待归档时按发布库补录）：多巴胺奖赏回路、游泳与海马体神经发生、抗焦虑呼吸节律",
+      "platforms": "视频号 / 小红书 / B站 / 快手",
+      "priority": "P1 高收藏率"
+    },
+    {
+      "id": "COL-07",
+      "name": "产品测款与水边生活 (W系列)",
+      "scope": "高定泳衣干态上岸、湿态出水特写、水边穿搭及电商双视角测款视频",
+      "examples": "W系列测款片（编号以 00_发布库 实际入库为准）、水边假日穿搭指南",
+      "platforms": "小红书 / 淘宝点淘 / 京东逛视频 / 抖音",
+      "priority": "P0 测款挂车"
+    }
+  ],
+  "curationWorkflows": [
+    {
+      "id": "WF-CLEAN",
+      "phase": "01 / 定期清理 (Periodic Cleanup)",
+      "badge": "必须先经主理人确认",
+      "badgeType": "warning",
+      "title": "精准剔除降权、违规与极低效长尾视频",
+      "summary": "保持七大平台账号高权重与主页洁净度，避免违规限流或低质重复内容拖累整体推荐池。",
+      "rules": [
+        "红线优先：第一时间排查被平台判定「违规 / 不宜公开 / 仅自己可见 / 审核驳回」的异常稿件。",
+        "低效筛查：发布满 30 天且播放量、完播率、互动率均处于账号底部 <5% 区间的极低效长尾视频。",
+        "历史去重：清理早期因网络重试产生的同平台重复上传稿件、旧版测试残次件或画质不达标旧帖。",
+        "授权铁律：每次清理前先输出《待清理视频诊断清单》（含平台、标题、发布时间、播放量、拟删原因），经主理人明确确认后再执行删除并更新台账。"
+      ],
+      "cadence": "前期：按主理人指令逐批排查 · 后期：每周日例行生成诊断清单待批"
+    },
+    {
+      "id": "WF-ARCHIVE",
+      "phase": "02 / 定期归档 (Collection Archiving)",
+      "badge": "提升消费者检索效率",
+      "badgeType": "good",
+      "title": "按七大主题合集标准化归档，3秒直达目标内容",
+      "summary": "把散落在时间线里的 4,280+ 条视频按主题装进对应平台合集，实现「看一集连播一整套」。",
+      "rules": [
+        "B站（84稿，Lv2已解锁）：按7大主题建立官方视频合集，设置空間置顶代表作（如237、242、299）。",
+        "抖音（394条）与视频号（421条）：将同系列视频（六字母创意、泳衣黑科技、心理学/大脑系列）批量归入创作者合集，开启自动连播。",
+        "小红书（482篇）与快手（182条）：按「高定泳衣测款」「硬核泳镜」「品牌创意」「认知科普」整理个人专辑与剧集。",
+        "新片同步：后续每发完一批新片，在 +1 核验通过的同时直接归入对应合集，不留未分类孤岛。"
+      ],
+      "cadence": "存量分批归档 + 增量随发随归"
+    },
+    {
+      "id": "WF-DAILY",
+      "phase": "03 / 日常操作 (Daily Operations)",
+      "badge": "商品 · 话题 · 标题文案",
+      "badgeType": "proposed",
+      "title": "后续上架挂车、增删话题胶囊与标题文案调优",
+      "summary": "让内容资产持续产生电商转化与长尾搜索流量，打通从「看视频」到「进店下单」的最短路径。",
+      "rules": [
+        "商品上架（挂车）：针对京东逛视频（过审后补挂自营SKU）、淘宝点淘、抖音橱窗、小红书店铺及视频号小店，按主理人指令定向挂载泳镜、泳帽与高定泳衣商品链接。",
+        "话题动态维护：统一校验并增补 #TOSWIM #拓胜 #游泳装备 #高定泳衣 等高热话题胶囊，确保 @TOSWIM官方旗舰店 蓝字生效。",
+        "标题与文案改稿：根据完播与搜索词反馈，优化已有视频的前15字黄金钩子标题、补充置顶评论区购买指引及勘误修订。",
+        "多封面与声明巡检：核查既有重点视频是否已补齐双封面（抖音3:4+4:3、B站4:3+16:9）及「内容无需标注」合规声明。"
+      ],
+      "cadence": "随主理人指令即时响应执行 + 自动化巡检预案"
+    }
+  ],
+  "rows": [
+    {
+      "date": "2026-11-01",
+      "time": "01:40–01:50",
+      "workId": "299",
+      "theme": "TOSWIM · 雪蝶云影·水墨雪蝶（237号黑珍珠本尊真动态双语品宣版 · SNOW BUTTERFLY LIVE）",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "481→482",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "393→394 (3:4+4:3双封)",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "181→182 (3:4自定义封)",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1YbxJ6LE7U (83→84 双封)",
+          "permalink": "https://www.bilibili.com/video/BV1YbxJ6LE7U/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "420→421",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2723→2724 (ID:2463306457929670)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1374953724 (视频4918049643)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "time": "17:48–18:25",
+      "workId": "242",
+      "theme": "TOSWIM · 泳衣一沾水，为什么就变深（因水而生 WIOW 第1问 · ONE AIR）",
+      "sourceLabel": "统一发布库 · 21_因水而生",
+      "collection": "智能泳衣与黑科技",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "480→481 (6话题含#因水而生)",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "392→393 (3:4+4:3双封)",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "180→181 (960×1280 3:4封)",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1Joxk6sEZm (82→83 双封)",
+          "permalink": "https://www.bilibili.com/video/BV1Joxk6sEZm/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "419→420 (6话题)",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2722→2723 (ID:4233467424347664)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1374602248 (视频4916851485)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "time": "19:00–19:12",
+      "workId": "275",
+      "theme": "TOSWIM · 04号法式千金·雪蝶云影真品专场大片 (SNOW BUTTERFLY)",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "479→480",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "391→392",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "179→180",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1eQxe6dEod (81→82)",
+          "permalink": "https://www.bilibili.com/video/BV1eQxe6dEod/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "418→419",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2721→2722 (ID:3419838877547652)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1373207332 (视频4912598470)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "time": "18:46–18:58",
+      "workId": "274",
+      "theme": "TOSWIM · 04号法式千金·霜白墨浪真品专场大片 (FROST INK WAVE)",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "478→479",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "390→391",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "178→179",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1saxe6zEGN (80→81)",
+          "permalink": "https://www.bilibili.com/video/BV1saxe6zEGN/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "417→418",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2720→2721 (ID:2078197255913674)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1373195742 (视频4912522965)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "time": "06:15–06:43",
+      "workId": "271",
+      "theme": "TOSWIM · 05号冰晶天蓝·冰雪黑精灵个人出道大片（第一镜微侧甜笑修复重制版 · ICE CRYSTAL ELF）",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "477→478 (重发修复版)",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "389→390 (重发修复版)",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "177→178 (重发修复版)",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1LDxF6bE5G (分P无损换源)",
+          "permalink": "https://www.bilibili.com/video/BV1LDxF6bE5G/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "416→417 (重发修复版)",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2718→2719 (ID:4292926205030759)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1372162298 (视频4909466747)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "time": "01:35",
+      "workId": "273",
+      "theme": "TOSWIM · 02号荧光薄荷翠绿·薄荷黑天鹅个人出道大片 (MINT SWAN FAIRY)",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "477→478",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "389→390",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "177→178",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1VBxA6NEYt (79→80)",
+          "permalink": "https://www.bilibili.com/video/BV1VBxA6NEYt/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "416→417",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2718→2719 (ID:184736284415930)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1371952570 (视频4908963501)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "time": "01:06",
+      "workId": "272",
+      "theme": "TOSWIM · 01号极光紫罗兰·甜酷双丸子头个人出道大片 (VIOLET BUN FAIRY)",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "476→477",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "388→389",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "176→177",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1uAxc6nEEo (78→79)",
+          "permalink": "https://www.bilibili.com/video/BV1uAxc6nEEo/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "415→416",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2717→2718 (ID:4116228374846948)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1371923390 (视频4908880538)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:40",
+      "workId": "270",
+      "theme": "TOSWIM · 04号流光香槟金·法式千金个人出道大片 (CHAMPAGNE FAIRY)",
+      "sourceLabel": "统一发布库 · 13_品牌事件片",
+      "collection": "品牌与六字母创意",
+      "platforms": {
+        "xhs": {
+          "state": "verified",
+          "note": "474→475",
+          "permalink": "https://www.xiaohongshu.com"
+        },
+        "dy": {
+          "state": "verified",
+          "note": "386→387",
+          "permalink": "https://creator.douyin.com"
+        },
+        "ks": {
+          "state": "verified",
+          "note": "174→175",
+          "permalink": "https://cp.kuaishou.com"
+        },
+        "bili": {
+          "state": "verified",
+          "note": "BV1woxc65EXS (76→77)",
+          "permalink": "https://www.bilibili.com/video/BV1woxc65EXS/"
+        },
+        "sph": {
+          "state": "verified",
+          "note": "413→414",
+          "permalink": "https://channels.weixin.qq.com"
+        },
+        "dt": {
+          "state": "verified",
+          "note": "2715→2716 (ID:4130639698088791)",
+          "permalink": "https://iqianniu.taobao.com"
+        },
+        "jd": {
+          "state": "verified",
+          "note": "ID:1371783805 (视频4908521753)",
+          "permalink": "https://dr.jd.com"
+        }
+      }
+    }
+  ],
+  "mirrors": [
+    {
+      "id": "miaoda",
+      "name": "第 1 端 · 飞书妙搭 (Feishu Miaoda)",
+      "role": "飞书生态内原生秒开 · 手机与电脑飞书免密直连",
+      "status": "已上线",
+      "url": "https://toswim2012.feishu.cn/page/K4LUmqWHMdDx2vaInxOcEiiXnFf",
+      "note": "需登录飞书（toswim2012 企业账号）后访问 · 国内站 AppID: app_17h57njyma1 · 海外站飞书镜像: https://toswim2012.feishu.cn/page/Rm3XmKq7zde0FlamQaCc42QUnWe"
+    },
+    {
+      "id": "github",
+      "name": "第 2 端 · GitHub Pages (TOSWIM官方库)",
+      "role": "全球极速 CDN · Git 版本历史回溯 · 零厂商锁定",
+      "status": "已上线",
+      "url": "https://toswim.github.io/toswim-operations-plan/",
+      "note": "主入口直达国内七平台站；海外六平台镜像位于 /overseas/"
+    },
+    {
+      "id": "cg-site",
+      "name": "第 3 端 · CG 原生站点 (.chatgpt.site)",
+      "role": "与海外六平台站点同域名家族 · 支持 CG 原生工具链直接更新",
+      "status": "已上线",
+      "url": "https://toswim-domestic-operations.mr-toswim.chatgpt.site",
+      "note": "公开访问；由 CG 原生 Sites 工具发布（项目 appgprj_6ae643278db081918a16ae4c27d2ae37），与妙搭、GitHub 同一份 dist 源码"
+    }
+  ],
+  "updates": [
+    {
+      "version": "2026.11.01.1",
+      "date": "2026-11-01",
+      "title": "主理人泳镜侠 · 国内七平台运营规划站首版上线（一源三推）",
+      "detail": "建立国内七平台（小红书482、抖音394、快手182、B站84、视频号421、点淘2724、京东逛视频）统一运营底座；完整纳入「定期清理、七大合集归档、日常挂车/话题/文案维护」三大整理体系，并打通飞书妙搭、GitHub Pages 与 CG 站点三端同步。"
+    },
+    {
+      "version": "2026.11.02.1",
+      "date": "2026-11-02",
+      "title": "超链接与作品信息勘误",
+      "detail": "按 00_发布库 与总台账勘误：撤下首版误写的 295–298 作品名与两个无效B站稿件号，近期批次改为真实已发作品（299/242/270–275，B站稿件号逐个核对归属）；心理/经济/大脑合集改标为选题方向；CG 站点状态改为已上线。"
+    }
+  ]
+}
